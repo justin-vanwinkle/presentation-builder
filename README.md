@@ -1,15 +1,6 @@
-Build locally and start input watcher:
+# Presentation Builder
+A simplistic way to build stunning presentations with speed using Reveal.js and Docker.
 
-```
-docker build -t presentation-builder:local ./presentation-builder/
-docker run -ti --rm -v "$(pwd)/input:/input" -v "$(pwd)/output:/output" presentation-builder:local
-```
+To get started, clone this repo, modify the `input/slides.md` file to define your slides and place your referenced resources in `input/res/`.
 
-
-Start input watcher from prebuilt:
-
-```
-docker run -ti --rm -v "$(pwd)/input:/input" -v "$(pwd)/output:/output" justinvanwinkle/presentation-builder
-```
-
-Edit files in input, watch output appear in output :)
+To view your slides or present, run `present.sh`.  This will ultimately build your presentation and open your default browser to serve your presentation.
