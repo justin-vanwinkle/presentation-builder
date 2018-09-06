@@ -1,5 +1,5 @@
 # Presentation Builder
-A simplistic way to build stunning presentations with speed using Reveal.js and Docker.
+A simplistic way to create stunning presentations with speed using Reveal.js and Docker.
 
 To get started, clone this repo, modify the `input/slides.md` file to define your slides and place your referenced resources in `input/res/`.
 
