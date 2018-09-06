@@ -27,7 +27,3 @@ function build {
 build
 
 pushd /app/output/; python -m SimpleHTTPServer 80
-
-while block_for_change; do
-  build
-done
