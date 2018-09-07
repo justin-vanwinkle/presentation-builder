@@ -9,7 +9,7 @@ groupadd -g "$USER_GID" user
 
 useradd --shell /bin/bash -u "$USER_UID" -g "$USER_GID" -m user
 
-chown -R user:user /reveal.js
+chown -R user:user /reveal.js /app
 
 sudo -u user rsync -a /reveal.js /app/output
 
