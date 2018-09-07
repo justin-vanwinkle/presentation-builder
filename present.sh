@@ -8,7 +8,7 @@ function openBrowser(){
 
 mkdir output
 
-docker build -t presentation-builder:local ./builder/
+docker build -t presentation-builder:local ./.builder/
 
 openBrowser &
 
