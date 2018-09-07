@@ -1,6 +1,6 @@
 # Presentation Builder
 
-A simplistic way to create stunning presentations with speed using Reveal.js and Docker.
+A simplistic way to create stunning presentations with speed using [Reveal.js](https://github.com/hakimel/reveal.js) and Docker.
 
 ## Capabilities
 
