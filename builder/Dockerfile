@@ -13,6 +13,7 @@ VOLUME /app/output
 
 WORKDIR /app
 
-ADD run.sh .
+ADD presenter.sh .
+ADD preparer.sh .
 
-CMD bash ./run.sh
+CMD bash ./preparer.sh

@@ -12,4 +12,4 @@ docker build -t presentation-builder:local ./builder/
 
 openBrowser &
 
-docker run -it --rm -p 3000:80 -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" presentation-builder:local ./presenter.sh
+docker run -it --rm -p 3000:80 -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" presentation-builder:local ./preparer.sh
