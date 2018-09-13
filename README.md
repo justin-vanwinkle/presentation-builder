@@ -36,4 +36,4 @@ The only difference between this and `prepare.sh` is that `present.sh` does not 
 
 ### Distributing
 
-If you wish to serve your talk in a simple way, you can grab the files from the `output` folder and drop them anyhwere you can serve a webpage.
+If you wish to serve your talk in a simple way, you can grab the files from the `output` folder and drop them anywhere you can serve a webpage.
